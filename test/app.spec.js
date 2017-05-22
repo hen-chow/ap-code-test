@@ -123,7 +123,7 @@ describe("POST /user", function(){
 
   describe("if body is not formatted correctly", function(){
     it("should return an error", function(done){
-      var user = "firstName", "Taylor", "lastName", "Swift", "email", "getswifty@tswifty.com";
+      var user = ["firstName", "Taylor", "lastName", "Swift", "email", "getswifty@tswifty.com"];
       chai.request(app.listen())
         .post("/user")
         .send(user)
