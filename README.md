@@ -5,6 +5,10 @@
 # Overview
 Submission for code test to use test-driven development to create a simple web server. A GET "/users" and a POST "/user" end points were created.
 
+I chose the Express.js framework to create a lightweight web server in Node. Express was selected for its documentation, ease of use and simple structure / syntax.
+
+Mocha and Chai were selected for my testing modules to allow for easier to read language and simpler test running.  
+
 # Installation
 Clone or download from Github repository: https://github.com/hen-chow/ap-code-test
 
