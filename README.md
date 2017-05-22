@@ -6,6 +6,8 @@
 Submission for code test to use test-driven development to create a simple web server. A GET "/users" and a POST "/user" end points were created.
 
 # Installation
+Clone or download from Github repository: https://github.com/hen-chow/ap-code-test
+
 Required to run the following npm modules:
 ```
 npm install express
